@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Reading Time",
+    "version": "1.0",
+    "description": "Know the reading time for any article you're interested in reading.",
+    "icons": {
+        "16": "/images/reading 16.png",
+        "32": "/images/reading 32.png",
+        "128": "/images/reading128.png"
+    },
+    "content_scripts": [{
+        "js": ["scripts/script.js"],
+        "matches": [
+            "https://*/*"
+        ]
+    }]
+}
